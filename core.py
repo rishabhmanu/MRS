@@ -63,7 +63,7 @@ elif n == "trust":
 	res = requests.get("http://www.imdb.com/search/title?genres=western&sort=user_rating,desc")
 	scrape(res)
 
-elif == "anticipation":
+elif n == "anticipation":
 	#genere: romance/thriller
 	print("Hey! you can watch these top rated movies: ")
 	print()
